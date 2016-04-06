@@ -5,7 +5,8 @@ In this analysis, I use data from MediaCloud.org to test the hypothesis that cov
 ## Data Collection
 Data was collected by searching the repository at MediaCloud.org for all sentences matching the following search query:
 
-    “online harassment,”  “cyberbullying,” “online abuse,” “revenge porn,” “cyberstalking,” “online hate speech,” and “online racism”
+    “online harassment,”  “cyberbullying,” “online abuse,” “revenge porn,” 
+    “cyberstalking,” “online hate speech,” and “online racism”
 
 The dataset included 24 US media sources, 95 UK media sources, and 1065 blogs and digital first media sources.
 
