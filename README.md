@@ -49,3 +49,5 @@ Model Results:
     
 
 When interpreting these results, remember that the incidence rate ratio is calculated with `exp(beta)`. For example, in the case of UK media, the coefficient of monthnum is 0.039, which means that the incidence rate ratio is 1.039. The final interpretation is that from month to month, the number of sentences about online harassment in UK media increased by a rate of 3.9% on average between Jan 1 2014 and Jan 2016, a relationship that is statistically significant.
+
+Note also that this research makes no claims about the number of stories, or whether online harassment is growing. It is also possible that these findings reflect a change in the terms used to describe certain things rather than a change in the incidence of the underlying issues being described. I have attempted to account for this by using terms like cyberbullying and cyberstalking, which have a longer history.
