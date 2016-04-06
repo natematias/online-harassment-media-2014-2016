@@ -1,6 +1,6 @@
 # Has Coverage of Online Harassment Grown Since 2014?
 
-In this analysis, I use data from MediaCloud.org to test the hypothesis that coverage of online harassment grew from Jan 1, 2014 to March 31, 2016.
+In this analysis, I use data from MediaCloud.org to test the hypothesis that coverage of online harassment grew from 1 Jan 2014 to 31 March 2016.
 
 ## Data Collection
 Data was collected by searching the repository at MediaCloud.org for all sentences matching the following search query:
@@ -8,7 +8,9 @@ Data was collected by searching the repository at MediaCloud.org for all sentenc
     “online harassment,”  “cyberbullying,” “online abuse,” “revenge porn,” 
     “cyberstalking,” “online hate speech,” and “online racism”
 
-The dataset included 24 US media sources, 95 UK media sources, and 1065 blogs and digital first media sources.
+The dataset included 24 US media sources, 95 UK media sources, and 1065 blogs and digital first media sources, for the period from 1 Jan 2014 to March 21, 2016..
+
+![Online Harassment Sentences in US, UK, and Digital Media From 1 Jan 2014 to 31 March 2016](https://raw.githubusercontent.com/natematias/online-harassment-media-2014-2016/master/online_harassment_sentences_over_time.png) 
 
 ## Analysis
 This analysis uses a negative binomial model to test the null hypothesis that there is no relationship between the month since Jan 1 2014 and the number of sentences per region about online harassment in a given week. For more on count models, see:
@@ -48,6 +50,6 @@ Model Results:
     Note:                                                     *p<0.1; **p<0.05; ***p<0.01
     
 
-When interpreting these results, remember that the incidence rate ratio is calculated with `exp(beta)`. For example, in the case of UK media, the coefficient of monthnum is 0.039, which means that the incidence rate ratio is 1.039. The final interpretation is that from month to month, the number of sentences about online harassment in UK media increased by a rate of 3.9% on average between Jan 1 2014 and Jan 2016, a relationship that is statistically significant.
+When interpreting these results, remember that the incidence rate ratio is calculated with `exp(beta)`. For example, in the case of UK media, the coefficient of monthnum is 0.039, which means that the incidence rate ratio is 1.039. The final interpretation is that from month to month, the number of sentences about online harassment in UK media increased by a rate of 3.9% on average between 1 Jan 2014 and 31 March 2016, a relationship that is statistically significant.
 
 Note also that this research makes no claims about the number of stories, or whether online harassment is growing. It is also possible that these findings reflect a change in the terms used to describe certain things rather than a change in the incidence of the underlying issues being described. I have attempted to account for this by using terms like cyberbullying and cyberstalking, which have a longer history.
